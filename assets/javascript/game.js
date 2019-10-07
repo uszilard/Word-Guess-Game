@@ -5,8 +5,8 @@ var numRight = 0;
 var phraseLength = 0;
 var numChar = 0;
 var phrases = [];
-var movies = ["Split", "First Blood", "The Avengers", "Ready Player One", "Bohemian Rhapsody", "Batman Begins", "Avatar", "Harry Potter and the Prisoner of Azkaban", "Whiplash", "Taken 3", "Man of Steel", "Pirates of the Caribbean: The Curse of the Black Pearl", "Star Wars", "Collateral", "Good Boys"];
-var songs = ["Bohemian Rhapsody", "She Loves You", "Little Talks", "She Loves You", "Firework", "Another One Bites the Dust", "Feel No Ways", "Peep Show", "Can’t Let Go", "Jingle Bells", "Single Ladies", "If I Get Locked Up", "The House of the Rising Sun", "Immortalized", "Why Do You Love Me"];
+var movies = ["Split", "First Blood", "The Avengers", "Ready Player One", "Bohemian Rhapsody", "Batman Begins", "Avatar", "Harry Potter and the Prisoner of Azkaban", "Whiplash", "Taken 3", "Man of Steel", "Pirates of the Caribbean The Curse of the Black Pearl", "Star Wars", "Collateral", "Good Boys"];
+var songs = ["Bohemian Rhapsody", "She Loves You", "Little Talks", "She Loves You", "Firework", "Another One Bites the Dust", "Feel No Ways", "Peep Show", "Cant Let Go", "Jingle Bells", "Single Ladies", "If I Get Locked Up", "The House of the Rising Sun", "Immortalized", "Why Do You Love Me"];
 
 
 function sp() {
@@ -945,8 +945,3 @@ function reset() {
     }
 }
 
-function video() {
-    document.getElementById('gamePage').style.display = "none";
-    document.getElementById('videoPage').style.display = "block";
-    document.getElementById('home1').style.display = "block";
-}
